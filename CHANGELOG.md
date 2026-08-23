@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+**This is moor's last planned release.** The project is reference-only from
+here; I've moved to [revdiff](https://github.com/umputun/revdiff), a
+terminal-based AI-assisted review tool.
+
 ### Features
 - **`/moor:install-moor` refreshes the wrapper on your `PATH`.** moor shipped no
   slash command, so a session had no door to the plugin root of the version it
