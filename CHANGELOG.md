@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased
+## 0.18.0
 
 **This is moor's last planned release.** The project is reference-only from
 here; I've moved to [revdiff](https://github.com/umputun/revdiff), a
