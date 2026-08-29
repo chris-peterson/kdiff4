@@ -45,7 +45,7 @@ diff a reviewer approves is the change that lands. Editing `plugin.yml`,
 `hooks/hooks.yml`, a rule, or a command needs no local regeneration step.
 
 ```bash
-just preview-generated   # run the generators as CI does; git restore . to discard
+just check               # run the generators as CI does; git restore . to discard
 ```
 
 ## Use as git difftool

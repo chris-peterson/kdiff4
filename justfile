@@ -7,9 +7,8 @@ install:
 install-cli:
     ./bin/moor install-cli
 
-# Writes into the tree; `git restore .` throws the result away.
-# Run the generators the way CI does and show what it would commit
-preview-generated:
+# read what the projection job would commit, without keeping it; `git restore .` discards
+check:
     {{shipyard}} generate
     git --no-pager diff --stat
 
