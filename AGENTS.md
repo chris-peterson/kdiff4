@@ -20,3 +20,11 @@ A fast, keyboard-driven diff viewer optimized for `git difftool`. Not a merge to
 - **Keyboard-first** — vim-style navigation (`j`/`k` between hunks, `Shift+J`/`Shift+K` between files, `q` to close); every mouse affordance has a key, and the full set lives in `docs/keyboard.md`
 - **Fast startup** — production build loads from dist/, no bundler at runtime
 - **Minimal surface** — only the code needed for the spec, nothing speculative
+
+## Releasing
+
+Releases are dispatched, not tagged by hand: run the **Release** workflow with a
+bump level, and shipyard derives the version from `plugin.yml`, retitles
+`CHANGELOG.md`'s `## Unreleased` section, commits, tags that commit, and
+publishes. Write the notes into `## Unreleased` first — reading what landed is
+what picks the level.
